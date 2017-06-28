@@ -1,3 +1,35 @@
+/* UTILTY CLASSES */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.vertical-centered {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+/* =Section general styling
+-------- */
+ 
+section {
+  text-align: center;
+  padding: 80px 0;
+}
+ 
+
 /* GENERAL STYLES */
 
 html {
@@ -37,6 +69,31 @@ h1, h2, h3, h4 {
 		color: #555;
 }
 
+.galleryPromo {
+		text-align: center;
+		min-height: 300px;
+		padding: 50px;
+		background-color: #ffffff;
+		
+}
+
+#galleryIcon {
+		max-height:100px;
+		max-width: 100px;
+		padding-bottom: 20px;
+}
+
+#promoBoxes {
+	margin-top: 50px;
+}
+
+.button-primary {
+	color: #00E3AA;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 .intro {
 		color: #ffffff;
 		font-weight: bold;
@@ -70,6 +127,17 @@ h1, h2, h3, h4 {
 #contactBox, #contactBox h4 {
 	background-color: #4BD1A0;
 	color: #ffffff;
+}
+
+#footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#footerLinks a {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
 }
 
 /* MAIN NAVIGATION */
