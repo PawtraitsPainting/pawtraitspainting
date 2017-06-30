@@ -52,6 +52,7 @@ h1, h2, h3, h4 {
 .hero {
 	padding-top: 40px;
 	padding-bottom: 40px;
+background-image: url("..images/pug.jpg");
 }
 
 .hero h1 {
