@@ -37,6 +37,7 @@ html {
 	background-image: url("../images/bkg.png");
 	background-repeat: no-repeat; 
 	background-size: 100% 100%;
+	font-size: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -49,24 +50,23 @@ h1, h2, h3, h4 {
 /* HOMEPAGE STYLES */
 
 .hero {
-	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
 .hero h1 {
-	/*font-size: 9rem;*/
+	font-size: 700%;
 	text-align: center;
 	padding-top: 30px;
 	padding-bottom: 10px;
-	/*letter-spacing: 1rem;*/
+	letter-spacing: 1rem;
 }
 
-.hero h2, h3, p, a {
+.hero h2, p, a {
 		text-align: center;
-		/*letter-spacing: 0.25rem;*/
+		letter-spacing: 0.25rem;
 }
 
-.hero h2, h3 {
+.hero h2 {
 		color: #555;
 }
 
