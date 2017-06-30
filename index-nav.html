@@ -28,10 +28,84 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <style>
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+</style>
+  
 </head>
 <body>
+	
+  <!-- Navigation Overlay -->
+  <div id="myNav" class="overlay">
 
-  <!-- Primary Page Layout
+  <!-- Button to close the overlay navigation -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Overlay content -->
+  <div class="overlay-content">
+    <a href="#">Home</a>
+	<a href="#">About</a>
+    <a href="#">Gallery</a>
+	<a href="#">Request A PAWtrait</a>
+    <a href="#">Contact</a>
+  </div>
+
+  </div>
+  
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  <!-- /Navigation Overlay -->
+
+<!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
 	<!--mainNavigation-->
@@ -53,7 +127,7 @@
 	<div class="row">
 		<div class="twelve columns hero">
 			<h1>Pawtraits</br>Painting</h1>
-			<h3>Bespoke watercolour pet portraits</h3>
+			<h2>Bespoke watercolour pet portraits</h2>
 			<!--ORIGINAL HEADER AREA --
 			<p class="intro">Check out our paintings and previous commissions in our gallery.</p>
 			<a href="#"><button class="centered button-primary">View the gallery</button></a> -->
@@ -108,6 +182,18 @@
 		</div>
 	<!--/footer-->
 </div>
+
+<!-- Include Navigation Overlay scripts -->
+
+<script type="text/javascript">
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
