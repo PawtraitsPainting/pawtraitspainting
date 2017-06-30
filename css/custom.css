@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* UTILTY CLASSES */
 
 .centered {
@@ -151,4 +152,159 @@ nav ul li {
 	display: inline;
 	list-style: none;
 	margin-right: 10%;
+=======
+/* UTILTY CLASSES */
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.vertical-centered {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+/* =Section general styling
+-------- */
+ 
+section {
+  text-align: center;
+  padding: 80px 0;
+}
+ 
+
+/* GENERAL STYLES */
+
+html {
+	/*background-color: #e6e6e6;*/
+	background-image: url("../images/bkg.png");
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+}
+
+h1, h2, h3, h4 {
+	color: #00E3AA;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* HOMEPAGE STYLES */
+
+.hero {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.hero h1 {
+	/*font-size: 9rem;*/
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	/*letter-spacing: 1rem;*/
+}
+
+.hero h2, h3, p, a {
+		text-align: center;
+		/*letter-spacing: 0.25rem;*/
+}
+
+.hero h2, h3 {
+		color: #555;
+}
+
+.galleryPromo {
+		text-align: center;
+		min-height: 300px;
+		padding: 50px;
+		background-color: #ffffff;
+		
+}
+
+#galleryIcon {
+		max-height:100px;
+		max-width: 100px;
+		padding-bottom: 20px;
+}
+
+#promoBoxes {
+	margin-top: 50px;
+}
+
+.button-primary {
+	color: #00E3AA;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.intro {
+		color: #ffffff;
+		font-weight: bold;
+}
+
+.homeBox {
+	text-align: center;
+	padding: 20px 30px 30px 30px;
+}
+
+.homeBoxIcon {
+	max-height: 100px;
+	max-width: 100px;
+	padding: 30px 0px 20px 0px;
+}
+
+#aboutBox, #aboutBox h4 {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#galleryBox, #galleryBox p {
+	background-color: #605E5E;
+	color: #ffffff;
+}
+
+#pawtraitBox {
+	background-color: #EDEDED;
+}
+
+#contactBox, #contactBox h4 {
+	background-color: #4BD1A0;
+	color: #ffffff;
+}
+
+#footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#footerLinks a {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+
+#footerDetails {
+	font-size: 1rem;
+}
+
+/* MAIN NAVIGATION */
+
+nav ul li {
+	display: inline;
+	list-style: none;
+	margin-right: 10%;
+>>>>>>> d5070c8093265226ed273052bf10be2e290eac5e
 }
