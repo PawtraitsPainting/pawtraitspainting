@@ -72,21 +72,10 @@
          </ul>
 <!-- form-->
 
-<form id="contactform" method="POST">
-    <input type="text" name="name" placeholder="Your name">
-    <input type="email" name="_replyto" placeholder="Your email">
-    <input type="hidden" name="_subject" value="Website contact" />
-    <textarea name="message" placeholder="Your message"></textarea>
-    <input type="text" name="_gotcha" style="display:none" />
-<!-- thank you page -->
-<input type="hidden" name="_next" value="///thanks.html" />
-<!--/thank you page-->    
-<input type="submit" value="Send">
-</form>
-<script>
-    var contactform =  document.getElementById('contactform');
-    contactform.setAttribute('action', '//formspree.io/' + 'pawtraitspainting' + '@' + 'gmail' + '.' + 'com');
-</script>
+<div class="cognito">
+<script src="https://services.cognitoforms.com/s/Jq6hYoYGBkeRj16_HXcIvg"></script>
+<script>Cognito.load("forms", { id: "1" });</script>
+</div>
 
       </div>
     </div>
