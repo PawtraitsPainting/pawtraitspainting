@@ -12,7 +12,8 @@ html {
 	/*background-color: #e6e6e6;*/
 	background-image: url("../images/bkg.png");
 	background-repeat: no-repeat; 
-	background-size: 100% 100%;
+	background-size: cover;
+	/*height: 100%; /*added height to fix shorter pages - fixed with cover line above */ 
 }
 
 h1, h2, h3, h4 {
@@ -127,6 +128,13 @@ promoInfo {
 
 #footerDetails {
 	font-size: 1rem;
+}
+
+/* Gallery */
+
+.featuredPAWtrait img{
+	width: 100%;
+	height: auto;
 }
 
 /* MAIN NAVIGATION */
