@@ -1,0 +1,235 @@
+﻿/* =Section general styling
+-------- */
+ 
+section {
+  text-align: center;
+  padding: 80px 0;
+}
+ 
+/* GENERAL STYLES & TYPOGRAPHY */
+
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+html {
+	background-color: #e6e6e6;
+	background-image: url("../images/bkg.png");
+	background-repeat: no-repeat; 
+	background-size: cover;
+	/*height: 100%; /*added height to fix shorter pages - fixed with cover line above */ 
+}
+
+h1, h2, h3, h4 {
+	color: #00E3AA;
+	/*font-family: 'Lato', sans-serif;*/
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	color: #00E3AA;
+}
+
+/*p { 
+ text-align: left;
+}*/
+
+/* HOMEPAGE STYLES */
+
+.hero {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.hero h1 {
+	/*font-size: 9rem;*/
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	/*letter-spacing: 1rem;*/
+}
+
+.hero h2, h3, a {
+		text-align: center;
+		/*letter-spacing: 0.25rem;*/
+}
+
+.hero h2, h3 {
+		color: #555;
+}
+
+.galleryPromo {
+		text-align: center;
+		min-height: 300px;
+		padding: 50px;
+		background-color: #ffffff;
+
+}
+
+#galleryIcon {
+		max-height:100px;
+		max-width: 100px;
+		padding-bottom: 20px;
+}
+
+#promoBoxes {
+	margin-top: 50px;
+}
+
+.button-primary {
+	color: #00E3AA;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.intro {
+		color: #ffffff;
+		font-weight: bold;
+}
+
+.homeBox {
+	text-align: center;
+	padding: 20px 30px 30px 30px;
+}
+
+.homeBoxIcon {
+	max-height: 100px;
+	max-width: 100px;
+	padding: 30px 0px 20px 0px;
+}
+
+#aboutBox, #aboutBox h4 {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#galleryBox, #galleryBox p {
+	background-color: #605E5E;
+	color: #ffffff;
+}
+
+#pawtraitBox {
+	background-color: #EDEDED;
+}
+
+#contactBox, #contactBox h4 {
+	background-color: #4BD1A0;
+	color: #ffffff;
+}
+
+promoInfo {
+ text-align: center;
+}
+
+#footer {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#footerLinks a {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+
+#footerDetails {
+	font-size: 1rem;
+}
+
+/* Gallery */
+
+.featuredPAWtrait img{
+	width: 100%;
+	height: auto;
+}
+
+/* MAIN NAVIGATION */
+
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	text-transform: uppercase;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+#navbar {
+ background-color: #333;
+ margin: 0;
+/*box-sizing: border-box;*/
+position: absolute; 
+top: 0;
+ left: 0;
+ /*position: fixed;*/
+ z-index; 999;
+ width: 100%;
+}
+
+#logo {
+ font-size: 20px;
+ color: #fff;
+ vertical-align: middle;
+ float: left;
+ padding: 5px 10px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+}
+
+#navMenuToggle {
+color: #fff; 
+font-size:24px;
+ cursor:pointer;
+ float: right;
+ padding: 5px 10px;
+ box-sizing: border-box;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
