@@ -1,2 +1,0 @@
-# pawtraitspainting
-Live site
