@@ -41,7 +41,9 @@ html {
 
 }
 
-
+body {
+font-size: 1.6em;
+}
 
 h1, h2, h3, h4 {
 
@@ -64,22 +66,13 @@ a {
 }
 
 
-
-/*p { 
-
- text-align: left;
-
-}*/
-
-
-
 /* HOMEPAGE STYLES */
 
 
 
 .hero {
 
-	padding-top: 40px;
+	padding-top: 30px;
 
 	padding-bottom: 40px;
 
@@ -327,13 +320,14 @@ promoInfo {
 
     position: relative;
 
-    top: 25%;
+    top: 15%;
 
     width: 100%;
 
     text-align: center;
 
     margin-top: 30px;
+line-height: 1.5;
 
 }
 
@@ -341,11 +335,11 @@ promoInfo {
 
 .overlay a {
 
-    padding: 8px;
+    padding: 6px;
 
     text-decoration: none;
 
-    font-size: 36px;
+    font-size: 26px;
 
     color: #818181;
 
@@ -354,7 +348,7 @@ promoInfo {
     transition: 0.3s;
 
 	text-transform: uppercase;
-
+margin-bottom: 1.6rem;
 }
 
 
@@ -407,7 +401,7 @@ top: 0;
 
 #logo {
 
- font-size: 20px;
+ font-size: 22px;
 
  color: #fff;
 
@@ -424,7 +418,7 @@ top: 0;
 #logo a {
 
 	text-decoration: none;
-
+vertical-align: middle;
 	color: #fff;
 
 	font-family: 'Lato', sans-serif;
@@ -437,7 +431,8 @@ top: 0;
 
 color: #fff; 
 
-font-size:20px;
+font-size:26px;
+/*vertical-align: middle;*/
 
  cursor:pointer;
 
