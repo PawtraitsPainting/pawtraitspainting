@@ -141,15 +141,6 @@ a {
 }
 
 
-
-#promoBoxes {
-
-	margin-top: 50px;
-
-}
-
-
-
 .button-primary {
 
 	color: #00E3AA;
@@ -163,84 +154,32 @@ a {
 }
 
 
+/* New Homepage Boxes */
 
-.intro {
-
-		color: #ffffff;
-
-		font-weight: bold;
-
+#newpromoBoxes {
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-
-
-.homeBox {
-
+.newhomeBox {
 	text-align: center;
-
 	padding: 20px 30px 30px 30px;
-
-}
-
-
-
-.homeBoxIcon {
-
-	max-height: 100px;
-
-	max-width: 100px;
-
-	padding: 30px 0px 20px 0px;
-
-}
-
-
-
-#aboutBox, #aboutBox h4 {
-
-	background-color: #000000;
-
-	color: #ffffff;
-
-}
-
-
-
-#galleryBox, #galleryBox p {
-
-	background-color: #605E5E;
-
-	color: #ffffff;
-
-}
-
-
-
-#pawtraitBox {
-
 	background-color: #EDEDED;
-
 }
 
+.promoIcon {
+	max-height: 100px;
+	max-width: 100px;
+	padding: 30px 0px 20px 0px;
+}
 
-
-#contactBox, #contactBox h4 {
-
+#newpawtraitPromoBox, #newpawtraitPromoBox h4, #newpawtraitPromoBox a {
 	background-color: #4BD1A0;
-
 	color: #ffffff;
-
 }
 
 
-
-promoInfo {
-
- text-align: center;
-
-}
-
-
+/* Footer */
 
 #footer {
 
@@ -267,7 +206,6 @@ promoInfo {
 #footerDetails {
 
 	font-size: 1rem;
-
 }
 
 

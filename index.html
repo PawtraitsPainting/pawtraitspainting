@@ -27,6 +27,17 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- Include Google Analytics code -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102218072-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 	
@@ -76,7 +87,7 @@
 					<img id="galleryIcon" src="images/gallery.svg" alt="gallery">
 					<h3>View the gallery</h3>
 					<p> Check out our paintings and previous commissions in our gallery.</p>
-					<a href="#"><button class="button-primary">View the gallery</button></a>
+					<a href="gallery.html"><button class="button-primary">View the gallery</button></a>
 				</div>
 			</div>
 		</div>
@@ -84,25 +95,25 @@
 	<!--/gallery promo-->
 	<!--boxes-->
 	<div class="container">
-		<div id="promoBoxes" class="row">
-		  <div id="aboutBox" class="four columns homeBox">
-			<img class="homeBoxIcon" src="images/pawprints.svg" alt="pawprint">
-			<h4>About</h4>
-			<p class="promoInfo">Read our story here</p>
-			<p class="promoInfo"><a href="about.html">Read more &gt;</a></p>
-		  </div>
-		  <div id="pawtraitBox" class="four columns homeBox">
-			<img class="homeBoxIcon" src="images/paintbrush.svg" alt="paintbrush">
-			<h4>Pawtrait</h4>
-			<p class="promoInfo">Request your very own PAWtrait here</p>
-			<p class="promoInfo"><a href="request-a-pawtrait.html">Read more &gt;</a></p>
-		  </div>
-		  <div id="contactBox" class="four columns homeBox">
-			<img class="homeBoxIcon" src="images/speechbubbles.svg" alt="speech bubbles">
-			<h4>Contact</h4>
-			<p class="promoInfo">If you have any questions send us a message here</p>
-			<p class="promoInfo"><a href="contact.html">Read more &gt;</a></p>
-		  </div>
+		<div class="row" id="newpromoBoxes">
+			<div class="four columns newhomeBox">
+				<img class="promoIcon" src="images/pawprints.svg" alt="pawprint">
+				<h4>About</h4>
+				<p>Read our story here.</p>
+				<p><a href="about.html">Read more &gt;</a></p>
+			</div>
+			<div id="newpawtraitPromoBox" class="four columns newhomeBox">
+				<img class="promoIcon" src="images/paintbrush.svg" alt="pawprint">
+				<h4>PAWtrait</h4>
+				<p>Request your very own PAWtrait.</p>
+				<p><a href="request-a-pawtrait.html">Get in touch &gt;</a></p>
+			</div>
+			<div class="four columns newhomeBox">
+				<img class="promoIcon" src="images/speechbubbles.svg" alt="pawprint">
+				<h4>Contact</h4>
+				<p>Any questions?</p>
+				<p><a href="contact.html">Send a message here &gt;</a></p>
+			</div>
 		</div>
 	<!--/boxes-->	
 	<!--footer-->
