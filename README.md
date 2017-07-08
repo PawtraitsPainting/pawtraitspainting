@@ -1,2 +1,0 @@
-# pawtraitspainting
-Website under construction
