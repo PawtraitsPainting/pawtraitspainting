@@ -1,4 +1,4 @@
-﻿
+﻿/*original color #00-E3-AA; */
 /* =Section general styling
 
 -------- */
@@ -47,7 +47,7 @@ font-size: 1.6em;
 
 h1, h2, h3, h4 {
 
-	color: #00E3AA;
+	color: #00cc99;
 
 	/*font-family: 'Lato', sans-serif;*/
 
@@ -60,9 +60,11 @@ h1, h2, h3, h4 {
 
 
 a {
-
+	color: #00cc99;
+	}
+	
+a:hover: {
 	color: #00E3AA;
-
 }
 
 
@@ -143,7 +145,7 @@ a {
 
 .button-primary {
 
-	color: #00E3AA;
+	color: #00cc99;
 
 	font-family: Arial, Helvetica, sans-serif;
 
@@ -174,7 +176,7 @@ a {
 }
 
 #newpawtraitPromoBox, #newpawtraitPromoBox h4, #newpawtraitPromoBox a {
-	background-color: #4BD1A0;
+	background-color: #00cc99;/*original #4BD1A0*/
 	color: #ffffff;
 }
 
