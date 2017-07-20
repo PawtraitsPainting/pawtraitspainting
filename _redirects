@@ -2,4 +2,4 @@
 http://www.pawtraitspainting.com   https://www.pawtraitspainting.com    301
 
 #redirect all subpages
-http://www.pawtraitspainting.com/*  https://www.pawtraitspainting.com/:splat    301
+http://www.pawtraitspainting.com/*  https://www.pawtraitspainting.com/*    301
