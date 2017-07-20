@@ -1,0 +1,5 @@
+#redirect homepage
+http://www.pawtraitspainting.com   https://www.pawtraitspainting.com    200
+
+#redirect all sub pages
+http://www.pawtraitspainting.com/*  https://www.pawtraitspainting.com/:splat    200
