@@ -31,7 +31,7 @@ html {
 
 	background-color: #e6e6e6;
 
-	background-image: url("../images/bkg.png");
+	background-image: url("../images/bkg-30.png");
 
 	background-repeat: no-repeat; 
 
@@ -203,7 +203,7 @@ a:hover: {
 
 #footerLinks a {
 
-	color: #ffffff;
+	color: #333;
 
 	text-align: center;
 
@@ -216,6 +216,8 @@ a:hover: {
 #footerDetails {
 
 	font-size: 1rem;
+	line-height: 0rem;
+	margin-bottom: 0;
 }
 
 
