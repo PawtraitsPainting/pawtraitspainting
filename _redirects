@@ -2,4 +2,13 @@
 http://www.pawtraitspainting.com   https://www.pawtraitspainting.com    301
 
 #redirect all subpages
-http://www.pawtraitspainting.com/*  https://www.pawtraitspainting.com/*    301
+http://www.pawtraitspainting.com/about  https://www.pawtraitspainting.com/about    301
+http://www.pawtraitspainting.com/gallery  https://www.pawtraitspainting.com/gallery    301
+http://www.pawtraitspainting.com/request-a-pawtrait  https://www.pawtraitspainting.com/request-a-pawtrait    301
+http://www.pawtraitspainting.com/request-a-pawtrait/thank-you  https://www.pawtraitspainting.com/request-a-pawtrait/thank-you    301
+http://www.pawtraitspainting.com/contact  https://www.pawtraitspainting.com/contact    301
+http://www.pawtraitspainting.com/sitemap  https://www.pawtraitspainting.com/sitemap    301
+http://www.pawtraitspainting.com/newsletter-signup  https://www.pawtraitspainting.com/newsletter-signup    301
+http://www.pawtraitspainting.com/terms-conditions  https://www.pawtraitspainting.com/terms-conditions    301
+http://www.pawtraitspainting.com/privacy-cookies  https://www.pawtraitspainting.com/privacy-cookies    301
+http://www.pawtraitspainting.com/404  https://www.pawtraitspainting.com/404    301
