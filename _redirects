@@ -12,3 +12,6 @@ http://www.pawtraitspainting.com/newsletter-signup  https://www.pawtraitspaintin
 http://www.pawtraitspainting.com/terms-conditions  https://www.pawtraitspainting.com/terms-conditions    301
 http://www.pawtraitspainting.com/privacy-cookies  https://www.pawtraitspainting.com/privacy-cookies    301
 http://www.pawtraitspainting.com/404  https://www.pawtraitspainting.com/404    301
+
+#splat
+http://www.pawtraitspainting.com/*   https://www.pawtraitspainting.com/:splat    301
